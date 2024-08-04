@@ -1,0 +1,109 @@
+@import url(../../global.css);
+@import url(../../colors.css);
+* {
+  font-family: "Times New Roman", Times, serif;
+  color: hsl(var(--charcoal));
+}
+.main-header {
+  box-shadow: -1px 1px 20px 4px rgba(0, 0, 0, 0.242);
+}
+.header-logo {
+  width: 40em;
+  height: 5.8em;
+  padding-inline: 3em 17em;
+}
+.form-container {
+  display: flex;
+  margin-inline: auto;
+}
+.search-controller {
+  width: 44.2em;
+  height: 5em;
+  border: 2px solid hsl(var(--charcoal));
+  border-radius: 0;
+  font-size: 1.4em;
+  opacity: 0.75;
+  padding: 1.1em;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+}
+.search-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: hsl(var(--charcoal));
+  font-size: 2.8em;
+  padding-inline-end: 0.5em;
+}
+
+.search-controller:focus {
+  border-color: hsl(var(--charcoal));
+  box-shadow: 1px 1px 8px #888888;
+}
+
+.search-controller::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.search-controller::-ms-clear {
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  font-size: 2.1em;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.cart-icon {
+  color: hsl(var(--charcoal));
+}
+.nav-link-item {
+  position: relative;
+  color: hsl(var(--charcoal));
+}
+.nav-link-item:hover,
+.cart-icon:hover,
+.user-icon:hover {
+  color: #ddd;
+}
+.nav-link-item::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 35px;
+  background-color: hsl(var(--charcoal));
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.cart-icon {
+  margin-right: 0.8em;
+}
+.user-icon {
+  margin-left: 0.8em;
+}
+.nav-link-item:last-child::after {
+  display: none;
+}
+.nav-choice {
+  display: flex;
+  justify-content: end;
+  padding-inline-end: 25em;
+}
+
+.nav-choice span {
+  font-size: 2.5em;
+  background-color: hsl(var(--jasperorange));
+  color: hsl(var(--white));
+  padding: 0.6em;
+}

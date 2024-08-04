@@ -1,0 +1,54 @@
+@import url(./colors.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 0px;
+}
+Link {
+  color: hsl(var(--charcoal));
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+html {
+  font-size: 62.5%; /* 1em --> 10px*/
+  font-family: serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Oswald Regular";
+  src: url(./Assets/Fonts/Oswald/Oswald-Regular.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Oswald Light";
+  src: url(./Assets/Fonts/Oswald/Oswald-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Oswald Bold";
+  src: url(./Assets/Fonts/Oswald/Oswald-Bold.ttf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Oswald Medium";
+  src: url(./Assets/Fonts/Oswald/Oswald-Medium.ttf);
+  font-weight: 700;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
