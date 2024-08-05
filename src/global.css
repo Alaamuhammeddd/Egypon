@@ -12,8 +12,10 @@ Link {
 a {
   text-decoration: none;
 }
-li {
+ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 html {
   font-size: 62.5%; /* 1em --> 10px*/

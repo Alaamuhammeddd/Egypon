@@ -3,7 +3,6 @@
 .register-container {
   max-width: 192em;
   background-color: hsl(var(--cultured));
-  max-height: 100vh;
   padding-inline-start: 7em;
 }
 
@@ -65,17 +64,37 @@
   font-size: 1.7em;
 }
 .personal-details {
-  margin-inline-start: 32em;
+  margin-inline-start: 21em;
 }
 .input-group .form-input {
   width: 30.8em;
   height: 4.07em;
+  border: 1.4px solid hsl(var(--charcoal));
+  border-radius: 0px;
+  font-size: 1.5em;
 }
 .prsn-detail-grp,
 .addrs-grp {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
+/* Add a hover effect */
+.register-btn:hover {
+  background-color: #45a049; /* Darker green */
+}
+.register-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Remove blue color on click (active) */
+.register-btn:active {
+  background-color: #3e8e41; /* Even darker green for active state */
+  outline: none;
+  box-shadow: none;
+}
+
 .register-btn {
   display: flex;
   margin-block-start: 8em;
@@ -90,10 +109,17 @@
 }
 
 .register-btn:hover {
-  background-color: hsla(var(--jasperorange, 0.5));
-  border: hsla(var(--jasperorange, 0.5));
+  background-color: #efb385;
+  border-color: #efb385;
 }
 
+.register-btn:active,
+.register-btn:focus:active {
+  background-color: #efb385;
+  border-color: #efb385;
+  outline: none;
+  box-shadow: none;
+}
 .log-in-link-container {
   margin-block-start: 0.5em;
   display: flex;

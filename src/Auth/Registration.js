@@ -57,30 +57,54 @@ const Registration = () => {
         <div className="prsn-detail-grp">
           <div className="input-group">
             <Form.Label className="form-label">First Name</Form.Label>
-            <Form.Control type="text" className="form-input" />
+            <Form.Control
+              type="text"
+              className="form-input"
+              placeholder="eg. John"
+            />
           </div>
           <div className="input-group">
             <Form.Label className="form-label">Last Name</Form.Label>
-            <Form.Control type="text" className="form-input" />
+            <Form.Control
+              type="text"
+              className="form-input"
+              placeholder="eg. Doe"
+            />
           </div>
           <div className="input-group">
             <Form.Label className="form-label">Email Address</Form.Label>
-            <Form.Control type="email" className="form-input" />
+            <Form.Control
+              type="email"
+              className="form-input"
+              placeholder="eg. john.doe@example.com"
+            />
           </div>
           <div className="input-group">
             <Form.Label className="form-label">Mobile Number</Form.Label>
-            <Form.Control type="text" className="form-input" />
+            <Form.Control
+              type="tel"
+              className="form-input"
+              placeholder="eg. 01234567890"
+            />
           </div>
         </div>
         <h2 className="addrs-title">Address</h2>
         <div className="addrs-grp">
           <div className="input-group">
             <Form.Label className="form-label">Street</Form.Label>
-            <Form.Control type="text" className="form-input" />
+            <Form.Control
+              type="text"
+              className="form-input"
+              placeholder="eg. 123 St."
+            />
           </div>
           <div className="input-group">
             <Form.Label className="form-label">Governorate</Form.Label>
-            <Form.Control type="text" className="form-input" />
+            <Form.Control
+              type="text"
+              className="form-input"
+              placeholder="eg. Cairo"
+            />
           </div>
         </div>
       </div>
