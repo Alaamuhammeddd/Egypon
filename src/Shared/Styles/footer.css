@@ -1,5 +1,5 @@
-@import url(../../global.css);
-@import url(../../colors.css);
+@import url(../../Styles/colors.css);
+@import url(../../Styles/global.css);
 /* .main-footer {
   background-color: hsl(var(--cultured));
   display: flex;
@@ -49,6 +49,7 @@
 }
 
 .payment-logos {
+  background-color: hsl(var(--cultured));
   display: flex;
   justify-content: end;
   padding-inline-end: 3em;

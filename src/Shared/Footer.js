@@ -9,7 +9,7 @@ import "./Styles/footer.css";
 const Footer = () => {
   return (
     <div className="main-footer">
-      <div class="logo-and-links">
+      <div className="logo-and-links">
         <div className="logo-and-icons">
           <figure>
             <img src={footerLogo} alt="brand-logo" />
@@ -23,7 +23,7 @@ const Footer = () => {
           </figure>
         </div>
         <div className="footer-links">
-          <div class="footer-policy">
+          <div className="footer-policy">
             <h3>Policy</h3>
             <ul className="policy-list">
               <li>Terms of Usage</li>
@@ -31,7 +31,7 @@ const Footer = () => {
               <li>Return Policy</li>
             </ul>
           </div>
-          <div class="footer-categories">
+          <div className="footer-categories">
             <h3>Categories</h3>
             <ul className="categories-list">
               <li>Bike</li>
@@ -41,7 +41,7 @@ const Footer = () => {
               <li>Used Supplements</li>
             </ul>
           </div>
-          <div class="footer-contacts">
+          <div className="footer-contacts">
             <h3>Contacts</h3>
             <ul className="contacts-list">
               <li>+201234567890</li>
