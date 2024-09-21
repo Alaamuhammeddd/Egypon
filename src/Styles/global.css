@@ -4,6 +4,7 @@
   margin: 0;
   box-sizing: border-box;
   border-radius: 0px;
+  color: hsl(var(--charcoal));
 }
 Link {
   color: hsl(var(--charcoal));
@@ -51,6 +52,14 @@ ul {
 
 button {
   border: none;
+  margin: 0;
+  padding: 0;
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
+img {
   margin: 0;
   padding: 0;
 }

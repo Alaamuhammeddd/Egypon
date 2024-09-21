@@ -1,0 +1,29 @@
+@import url(../../Styles/colors.css);
+@import url(../../Styles/global.css);
+.verification-page {
+  background-color: hsl(var(--cultured));
+  min-height: 100vh;
+}
+
+.verification-content {
+  background: white;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 1.4em;
+}
+.verification-content h2 {
+  font-size: 3.9em;
+  padding-block-end: 0.4em;
+}
+.proceed-btn {
+  background-color: hsl(var(--jasperorange));
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.7rem;
+  transition: background-color 0.3s ease;
+}
+.proceed-btn:hover {
+  background-color: #efb385;
+  color: white;
+}

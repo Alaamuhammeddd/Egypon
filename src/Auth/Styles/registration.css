@@ -1,7 +1,7 @@
 @import url(../../Styles/colors.css);
 @import url(../../Styles/global.css);
 .register-container {
-  max-width: 192em;
+  /* max-width: 192em; */
   background-color: hsl(var(--cultured));
   padding-inline-start: 7em;
 }
